@@ -1,0 +1,38 @@
+.parent{
+	display: flex;
+	flex-direction: row;
+	flex-wrap:wrap;
+justify-content:center;
+}
+#child
+{
+
+width:30%;
+border:1px solid blue;
+padding:1%;
+margin:1%;
+box-shadow:3px 3px 4px -8px  #0f0;
+text-align:center;
+border-radius:5%;
+
+}
+#contact
+{
+	display: block;	
+}
+.contactsicon
+{
+display:inline;
+width: 15px;
+padding-right: 20px;
+}
+h1
+{
+	background: red;
+}
+.profile
+{
+width:200px;
+border:1px solid #f00;
+border-radius:70%;
+}
