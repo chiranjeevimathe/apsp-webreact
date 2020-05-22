@@ -1,0 +1,82 @@
+Software Requirement:
+1.Text Editor: Sublime Text3,Visual Code Editor
+
+2.Git
+
+3.Node Server or Web Server For Chrome
+
+-configure user name in gitbash
+$ git config --global user.name "chiru"
+
+-to view the configure user 
+git config user.name
+
+-configure email in gitbash
+git config --global user.email "csvani19@gmail.com"
+
+-to view the configure mail id
+git config user.email
+
+note marks of git edit area
+https://guides.github.com/features/mastering-markdown/
+
+Clone the repository to destkop
+i. click on clone or donwload
+ii and then selete the user under the  popup and click the side arrow link
+
+Then goto the git bash window and then change the directory to desktop by using
+cd desktop
+
+clone the repository to the local system using
+-git clone "url" which we copied by pressing clone or download
+eg:
+===
+git clone https://github.com/chi
+ranjeevimathe/apsp-webreact.git
+
+then change the directory to apsp-webreact which is the repository name given when we create the repository
+
+
+
+cd apsp-webreact
+here u create 3 folder and a file
+css
+js
+image
+index.html
+
+using commands
+mkdir css
+mkdir js
+mkdir image
+touch index.html
+
+git status
+command returns the status of the git 
+
+to add the files to tracked area, first add the file using 
+git add  "file_name"
+git add .
+git add --all
+git add -A
+git  add  index.html  (a for all)
+
+-to saving the changes to git using commit command
+git commit -m "message"
+git commit -am "messgage"  (a for all)
+check the remove using
+git remote
+default remote is origitn
+
+-to pust the files to github repository from local sys
+git push origin master (command)
+
+-to log the commited details
+git log
+
+Day 2:
+=============
+Icon beside title tag is "favicon"
+dowload image from "flaticon.com"
+images are png(raster images) and svg images  (use svg images)
+

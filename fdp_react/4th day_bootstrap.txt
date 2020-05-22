@@ -1,0 +1,38 @@
+Bootstrap
+=========
+- download bootstrap "getbootstrap.com"
+<div class="container">
+<h2 class="text-success">Heading 2</h2>
+<h3 class="text-danger">Heading 3<.h3>
+<h4 class="text-muted"> Heading 4<h4>
+</div>
+
+grid in bootstrap
+==============
+Each row in bootstrap has 12 parts
+we can split it using class=col-2 or class=col-10
+
+<div class="row justify-content-end" style="border:1px solid gray">
+
+justify-content-start
+justify-content-center
+
+but this appears only when the number of columns are lessthan 12
+
+<div class="col-md-8 col-lg-4 col-sm-12>
+
+
+<body>
+<div class="container>
+<div class="row">
+<div class="col-2 text-center">
+<profile pic><br>
+<name><br>
+<email><br>
+<mobile>
+</div>
+<div class="col-10">
+<summary><br>
+<list><br>
+<Education qualification>
+
